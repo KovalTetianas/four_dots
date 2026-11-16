@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Четыре точки",
+  "version": "1.0.0",
+  "description": "Иконка из 4 точек, вид которой выбирают удалённо через сервер.",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "alarms"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Четыре точки",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/dots_0000_16.png",
+      "32": "icons/dots_0000_32.png",
+      "48": "icons/dots_0000_48.png",
+      "128": "icons/dots_0000_128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/dots_0000_16.png",
+    "32": "icons/dots_0000_32.png",
+    "48": "icons/dots_0000_48.png",
+    "128": "icons/dots_0000_128.png"
+  }
+}
